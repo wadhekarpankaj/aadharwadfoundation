@@ -18,8 +18,11 @@ $(function(){
 
 		$(".owl-carousel").owlCarousel({
 
-			 margin:25,
+			margin:25,
+			 loop:true,
+			 autoplay:true,
 			 stagePadding: 25,
+			 autoplayTimeout:500,
 	   		 nav:true,
 	   		 navText: [
 		      "<i class='glyphicon glyphicon-chevron-left'></i>",
